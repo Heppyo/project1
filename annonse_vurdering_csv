@@ -1,0 +1,94 @@
+from llamaapi import LlamaAPI
+import csv
+import time
+import re
+
+# Initialize the LlamaAPI client
+api_token = "<insert api-key>"
+llama = LlamaAPI(api_token)
+
+def construct_prompt(job_listing):
+    prompt = f"""Analyser følgende jobbannonse for bruk av "blomsterspråk". Bruk det 5-poengs additive systemet beskrevet nedenfor. Gi en kort, presis analyse.
+
+Poengskala (gi maksimalt ett poeng for hvert kriterium):
+1. Ett poeng hvis annonsen inneholder mildt positivt språk, realistisk.
+2. Ett poeng hvis annonsen inneholder vagt/generisk språk for å beskrive stillingen.
+3. Ett poeng hvis annonsen inneholder overdrevne påstander om ansvar/kultur/fordeler.
+4. Ett poeng dersom annonsen inneholder sterk vekt på prestisje, idealisering av jobben/selskapet.
+5. Ett poeng hvis annonsen inneholder språk som er overdrevent smigrende/utbrodert i nesten alle aspekter.
+
+Jobbannonse: {job_listing}
+
+Gi en kort analyse (maks 100 ord) som forklarer poenggivningen. Inkluder spesifikke eksempler fra teksten.
+
+VIKTIG: 
+- Svar på norsk.
+- Vær konsis.
+- Gi kun ett poeng per kriterium.
+- Avslutt alltid med: "Blomsterspråk poengsum: X av 5" der X er summen av poengene.
+"""
+    return prompt
+
+def query_llama(prompt):
+    api_request_json = {
+        "messages": [
+            {"role": "user", "content": prompt},
+        ],
+        "stream": False,
+        "max_tokens": 250
+    }
+    
+    try:
+        response = llama.run(api_request_json)
+        return response.json()['choices'][0]['message']['content']
+    except Exception as e:
+        print(f"En feil oppstod: {e}")
+        return None
+
+def extract_score(analysis):
+    # Use regex to find the score
+    match = re.search(r"Blomsterspråk poengsum:\s*(\d+)\s*av\s*5", analysis)
+    if match:
+        return match.group(1)
+    return "N/A"
+
+def process_csv(file_path):
+    results = []
+    with open(file_path, newline='', encoding='utf-8') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            if row:
+                job_listing = row[0]
+                prompt = construct_prompt(job_listing)
+                analysis = query_llama(prompt)
+                
+                score = extract_score(analysis)
+                
+                results.append({
+                    'job_listing': job_listing,
+                    'analysis': analysis,
+                    'score': score
+                })
+                
+                time.sleep(1)
+    
+    return results
+
+def run_tests():
+    file_path = input("Skriv inn filbanen til CSV-filen med jobbannonser: ")
+    results = process_csv(file_path)
+    
+    # Write results to a new CSV file
+    output_file = 'job_listing_analysis_results.csv'
+    with open(output_file, 'w', newline='', encoding='utf-8-sig') as csvfile:
+        fieldnames = ['job_listing', 'analysis', 'score']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        
+        writer.writeheader()
+        for result in results:
+            writer.writerow(result)
+    
+    print(f"Analyse fullført. Resultater er lagret i {output_file}")
+
+if __name__ == "__main__":
+    run_tests()
