@@ -1,0 +1,16 @@
+Jeg jobber mer å forbedre 
+
+Prompt 1:
+
+Analyser følgende jobbannonse for "blomsterspråk", altså superlativt språkbruk som forsøker å gi et inntrykk om arbeidsplassen og jobben den beskriver som er mer smigrende og overdrevent enn en direkte beskrivelse ville vært.
+Vurder annonsen i henhold til de følgende kriteriene:
+
+Poengskala: Kriterium 1: Gi en score mellom 0 og 10 for overdreven beskrivelse av selve jobben og dens arbeidsoppgaver.
+Forklaring kriterium 1: Hvis annonsen beskriver arbeidsoppgavene og krav til kompetanse uten noe utsmykning av språket vil annonsen få score 1.
+Hvis annonsen inneholder overdådig og smigrende språk om hvor bra jobben er uten å vektlegge det å faktisk beskrive stillingen øke denne scoren.
+Maksimal score er 10 Kriterium 2: Gi en score mellom 0 og 10 for overdådig beskrivelse av arbeidsplassen.
+Forklaring Kriterium 2: Hvis annonsen beskriver rett frem hva slags type arbeidsplass og hvilken industri arbeidsplassen faller inn under, gi score 1.
+Dersom annonsen bruker språk som er overdådig og unødvendig for å skape forståelse om arbeidsplassens karakteristikker, øk scoren. Maksimal score er 10
+
+
+

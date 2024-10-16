@@ -1,0 +1,155 @@
+Jeg jobber mer å forbedre prompt til en LLM.
+Vedlagt er 3 prompt. Gjør en språklig analyse av tydeligheten og forskjellene mellom de ulike promptene.
+
+Prompt 1:
+
+Analyser følgende jobbannonse for "blomsterspråk", altså superlativt språkbruk som forsøker å gi et inntrykk om arbeidsplassen og jobben den beskriver som er mer smigrende og overdrevent enn en direkte beskrivelse ville vært.
+Vurder annonsen i henhold til de følgende kriteriene:
+
+Poengskala: Kriterium 1: Gi en score mellom 0 og 10 for overdreven beskrivelse av selve jobben og dens arbeidsoppgaver.
+Forklaring kriterium 1: Hvis annonsen beskriver arbeidsoppgavene og krav til kompetanse uten noe utsmykning av språket vil annonsen få score 1.
+Hvis annonsen inneholder overdådig og smigrende språk om hvor bra jobben er uten å vektlegge det å faktisk beskrive stillingen øke denne scoren.
+Maksimal score er 10 Kriterium 2: Gi en score mellom 0 og 10 for overdådig beskrivelse av arbeidsplassen.
+Forklaring Kriterium 2: Hvis annonsen beskriver rett frem hva slags type arbeidsplass og hvilken industri arbeidsplassen faller inn under, gi score 1.
+Dersom annonsen bruker språk som er overdådig og unødvendig for å skape forståelse om arbeidsplassens karakteristikker, øk scoren. Maksimal score er 10
+
+Prompt 2:
+
+Analyser en gitt jobbannonse for bruk av "blomsterspråk" eller superlativt overdrevent språk sammenlignet med arbeidsoppgavene i annonsen.
+Legg særlig vekt på hvordan språket presenterer jobben og arbeidsplassen på en smigrende eller overdreven måte.
+Bruk de spesifikke kriteriene og poengskalaen nedenfor for å vurdere annonsen.
+
+- **Kriterium 1: Overdreven beskrivelse av selve jobben og dens arbeidsoppgaver**
+  - Gi en score fra 0 til 10.
+  - Forklaring: En score på 1 indikerer at stillingsbeskrivelsen og kompetansekravene er formulert uten språklig overdrevent utsmykning.
+  En score nærmere 10 tyder på rik bruk av overdådige og smigrende termer som overdriver hvor bra arbeidsoppgavene er uten å faktisk beskrive dem i detalj.
+
+- **Kriterium 2: Overdådig beskrivelse av selve arbeidsplassen og jobbmiljø**
+  - Gi en score fra 0 til 10.
+  - Forklaring: En score på 1 reflekterer en saklig og direkte beskrivelse av arbeidsplassen, bransjen og industrien.
+  En score nærmere indikerer bruk av et overdådig språk som er unødvendig for å skape forståelse av arbeidsplassens karakteristika.
+
+- **Kriterium 3: Gi en beskrivelse av språket i annonsen på maksimalt 7 ord.**
+
+# Steps
+
+1. Les jobbannonsen grundig.
+2. Analyser om beskrivelser av arbeidsoppgaver og kompetansekrav er nøkterne eller overdrevne.
+3. Vurder beskrivelsene av arbeidsplassen for eventuelle unødvendige eller overdådige språkbruk.
+4. Tilordne poeng iht. poengskalaen for begge kriterier.
+5. Forklar kort hvorfor hver score ble valgt, basert på språkbruket.
+6. Gi en beskrivelse av språket i annonsen på maksimalt 7 ord.
+
+# Output Format
+
+Liste opp og beskriv score for hvert kriterium som følger:
+- Kriterium 1: Score [score]/10. [Forklaring for valgte score]
+- Kriterium 2: Score [score]/10. [Forklaring for valgte score]
+- Kriterium 3: Skriv ut maksimalt 7 ord som beskriver annonsen. Benytt ; som skilletegn mellom ordene.
+
+Prompt 3:
+Analyser en gitt jobbannonse for bruk av "blomsterspråk" eller superlativt overdrevent språk sammenlignet med arbeidsoppgavene i annonsen.
+Legg særlig vekt på hvordan språket presenterer jobben og arbeidsplassen på en smigrende eller overdreven måte.
+Bruk de spesifikke kriteriene og poengskalaen nedenfor for å vurdere annonsen.
+
+- **Kriterium 1: Overdreven beskrivelse av selve jobben og dens arbeidsoppgaver**
+  - Gi en score fra 0 til 10.
+  - Forklaring: En score på 1 indikerer at stillingsbeskrivelsen og kompetansekravene er formulert uten språklig overdrevent utsmykning.
+  En score nærmere 10 tyder på rik bruk av overdådige og smigrende termer som overdriver hvor bra arbeidsoppgavene er uten å faktisk beskrive dem i detalj.
+
+- **Kriterium 2: Overdådig beskrivelse av selve arbeidsplassen og jobbmiljø**
+  - Gi en score fra 0 til 10.
+  - Forklaring: En score på 1 reflekterer en saklig og direkte beskrivelse av arbeidsplassen, bransjen og industrien.
+  En score nærmere indikerer bruk av et overdådig språk som er unødvendig for å skape forståelse av arbeidsplassens karakteristika.
+
+- **Kriterium 3: Gi en beskrivelse av språket i annonsen på maksimalt 7 ord.**
+
+# Steps
+
+1. Les jobbannonsen grundig.
+2. Analyser om beskrivelser av arbeidsoppgaver og kompetansekrav er nøkterne eller overdrevne.
+3. Vurder beskrivelsene av arbeidsplassen for eventuelle unødvendige eller overdådige språkbruk.
+4. Tilordne poeng iht. poengskalaen for begge kriterier.
+5. Forklar kort hvorfor hver score ble valgt, basert på språkbruket.
+6. Gi en beskrivelse av språket i annonsen på maksimalt 7 ord.
+7. Hver annonse starter med to tallkoder. Gjengi disse to tallkodene i din respons.
+
+# Output Format
+
+Gjengi de to tallkodene som annonsen starter med.  Benytt ; som skilletegn mellom tallkodene.
+Liste opp og beskriv score for hvert kriterium som følger:
+- Kriterium 1: Score [score]/10. [Forklaring for valgte score]
+- Kriterium 2: Score [score]/10. [Forklaring for valgte score]
+- Kriterium 3: Skriv ut maksimalt 7 ord som beskriver annonsen. Benytt ; som skilletegn mellom ordene.
+
+Respons fra ChatGPT o1
+
+**Analyse av tydelighet og forskjeller mellom de tre promptene**
+
+**Innledning**
+
+De tre vedlagte promptene er utformet for å instruere en LLM i å analysere jobbannonser med fokus på bruk av "blomsterspråk" eller overdrevent smigrende språk. Nedenfor følger en språklig analyse av tydeligheten og forskjellene mellom de ulike promptene.
+
+---
+
+**Prompt 1**
+
+*Analyse:*
+
+- **Struktur og organisering:** Prompt 1 presenterer oppgaven og de to kriteriene, men mangler en tydelig struktur. Kriteriene og forklaringene er skrevet i løpende tekst uten bruk av avsnitt, punkter eller nummerering, noe som kan gjøre det utfordrende å følge instruksjonene.
+
+- **Klarhet i instruksjoner:** Instruksjonene er generelle og gir ikke detaljerte steg for hvordan analysen skal utføres. Det er heller ingen spesifikk veiledning om hvordan svaret skal formateres.
+
+- **Språklig presisjon:** Språket er mindre presist, og setningene er lange med potensiale for misforståelser. For eksempel er forklaringene til kriteriene skrevet i komplekse setninger uten klar avgrensning.
+
+*Konklusjon:* Prompt 1 gir en grunnleggende forståelse av oppgaven, men mangler klarhet og struktur som kan hjelpe LLM-en til å levere et konsistent og nøyaktig svar.
+
+---
+
+**Prompt 2**
+
+*Analyse:*
+
+- **Forbedret struktur:** Prompt 2 viser en betydelig forbedring i organiseringen. Kriteriene er tydelig adskilt med fet skrift og punktlister, noe som gjør det enklere å identifisere hver del.
+
+- **Detaljerte instruksjoner:** Seks konkrete steg er listet opp under overskriften "# Steps", som gir en klar veiledning for hvordan LLM-en skal gjennomføre analysen.
+
+- **Definert output-format:** Under "# Output Format" spesifiseres nøyaktig hvordan svaret skal struktureres, noe som sikrer konsistens i responsen.
+
+- **Språklig klarhet:** Språket er mer presist og setningene er kortere og enklere å forstå. Bruken av fet skrift og punktlister bidrar til å fremheve viktige deler av instruksjonene.
+
+*Konklusjon:* Prompt 2 forbedrer tydeligheten betraktelig ved å gi en klar struktur, detaljerte steg og et definert format for svaret. Dette gjør det enklere for LLM-en å følge instruksjonene og levere et passende svar.
+
+---
+
+**Prompt 3**
+
+*Analyse:*
+
+- **Ytterligere detaljer:** Prompt 3 bygger videre på strukturen i Prompt 2 og legger til et nytt element ved å inkludere en sjuende steg som instruerer LLM-en om å gjengi de to tallkodene som annonsen starter med.
+
+- **Oppdatert output-format:** Output-formatet er justert for å inkludere de to tallkodene, med spesifikke instruksjoner om å bruke semikolon som skilletegn.
+
+- **Forsterket klarhet:** Ved å inkludere alle nødvendige elementer i både steg og output-format, reduseres sjansen for at LLM-en overser viktige detaljer.
+
+- **Konsekvent språkbruk:** Språket opprettholder klarheten fra Prompt 2, med ytterligere presiseringer som forbedrer forståelsen.
+
+*Konklusjon:* Prompt 3 forbedrer ytterligere tydeligheten ved å inkludere alle relevante detaljer og sørge for at LLM-en har en komplett veiledning for oppgaven. Den oppdaterte strukturen sikrer at alle aspekter blir dekket i responsen.
+
+---
+
+**Generell sammenligning**
+
+- **Struktur og organisering:** Fra Prompt 1 til Prompt 3 ser vi en progresjon fra en enkel og mindre organisert instruksjon til en godt strukturert og detaljert veiledning.
+
+- **Klarhet i instruksjoner:** Prompt 2 og 3 gir klare og detaljerte steg, noe som mangler i Prompt 1. Dette hjelper LLM-en med å forstå nøyaktig hva som forventes.
+
+- **Output-format:** Mens Prompt 1 ikke spesifiserer hvordan svaret skal struktureres, gir Prompt 2 og 3 et tydelig format, med Prompt 3 som inkluderer alle nødvendige elementer.
+
+- **Språklig presisjon:** Språket blir mer presist og konsist fra Prompt 1 til Prompt 3, med bruk av punktlister, fet skrift og klare setninger.
+
+---
+
+**Avslutning**
+
+Ved å analysere de tre promptene, er det tydelig at hver påfølgende versjon forbedrer tydeligheten og brukervennligheten. Prompt 2 og 3 gir LLM-en en klar og detaljert veiledning, noe som sannsynligvis vil resultere i mer nøyaktige og konsistente responser. For optimal ytelse bør Prompt 3 benyttes, da den inkluderer alle nødvendige instruksjoner og sikrer at ingen viktige detaljer overses.

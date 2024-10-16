@@ -1,0 +1,62 @@
+Analyser en gitt jobbannonse for bruk av "blomsterspråk" eller superlativt overdrevent språk sammenlignet med arbeidsoppgavene i annonsen.
+Legg særlig vekt på hvordan språket presenterer jobben og arbeidsplassen på en smigrende eller overdreven måte.
+Bruk de spesifikke kriteriene og poengskalaen nedenfor for å vurdere annonsen.
+
+- **Kriterium 1: Overdreven beskrivelse av selve jobben og dens arbeidsoppgaver**
+  - Gi en score fra 0 til 10.
+  - Forklaring: En score på 1 indikerer at stillingsbeskrivelsen og kompetansekravene er formulert uten språklig overdrevent utsmykning.
+  En score nærmere 10 tyder på rik bruk av overdådige og smigrende termer som overdriver hvor bra arbeidsoppgavene er uten å faktisk beskrive dem i detalj.
+
+- **Kriterium 2: Overdådig beskrivelse av selve arbeidsplassen og jobbmiljø**
+  - Gi en score fra 0 til 10.
+  - Forklaring: En score på 1 reflekterer en saklig og direkte beskrivelse av arbeidsplassen, bransjen og industrien.
+  En score nærmere indikerer bruk av et overdådig språk som er unødvendig for å skape forståelse av arbeidsplassens karakteristika.
+
+- **Kriterium 3: Gi en beskrivelse av språket i annonsen på maksimalt 7 ord.**
+
+# Steps
+
+1. Les jobbannonsen grundig.
+2. Analyser om beskrivelser av arbeidsoppgaver og kompetansekrav er nøkterne eller overdrevne.
+3. Vurder beskrivelsene av arbeidsplassen for eventuelle unødvendige eller overdådige språkbruk.
+4. Tilordne poeng iht. poengskalaen for begge kriterier.
+5. Forklar kort hvorfor hver score ble valgt, basert på språkbruket.
+6. Gi en beskrivelse av språket i annonsen på maksimalt 7 ord.
+
+
+# Output Format
+
+Liste opp og beskriv score for hvert kriterium som følger:
+- Kriterium 1: Score [score]/10. [Forklaring for valgte score]
+- Kriterium 2: Score [score]/10. [Forklaring for valgte score]
+- Kriterium 3: Skriv ut maksimalt 7 ord som beskriver annonsen. Benytt ; som skilletegn mellom ordene.
+
+Her er teksten til annonsen:
+
+"10189384;0538-2019-12-4;Tilkallingsvikar som renholder 2020;"
+
+  Org.nr.:# kommune Stillingsident: 19/3911 Presentasjon av stillingen:
+
+  Vi søker etter vikarer på tilkalling til vår renholdstjeneste for 2020. Vikarene må kunne tre inn på kort varsel ved sykdom, permisjoner og ferieavvikling på sommeren.
+
+  Arbeidsoppgaver:
+
+  Moderne renhold i kommunale bygg som skole, barnehage, sykehjem og administrasjonslokaler.
+
+  Ønskede kvalifikasjoner:
+
+  Fagbrev som renholdsoperatør, men relevant erfaring kan kompensere for utdanningskravet
+  Erfaring fra renholdsarbeid
+  Nøyaktig og effektiv
+  Serviceinnstilt og fleksibel med hensyn til arbeidstid, -sted og -mengde.
+  Positiv, selvstendig og gode samarbeidsevner
+  Gode norskkunnskaper
+  Søkere må ha førerkort klasse B og kunne disponere egen bil.
+
+  For stillingen gjelder:
+
+  Vitnemål og attester skal ikke oversendes, men medbringes ved evt. intervju
+  Tilsettingsvilkår i henhold til gjeldende lover, reglement og tariffavtaler
+  Søknad sendes:
+
+Vi ønsker at du benytter elektronisk søknad på vår hjemmeside: www.nordre-land.kommune.no/ Link til søknadsskjema: Send søknad For mer informasjon kontakt: , #, Tlf: +47 #, Epost: linda.h.ekrem@nordre-land.kommune.no

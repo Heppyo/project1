@@ -1,0 +1,79 @@
+Analyser følgende jobbannonse for "blomsterspråk", altså superlativt språkbruk som forsøker å gi et inntrykk om arbeidsplassen og jobben den beskriver som er mer smigrende og overdrevent enn en direkte beskrivelse ville vært.
+Vurder annonsen i henhold til de følgende kriteriene:
+
+Poengskala: Kriterium 1: Gi en score mellom 0 og 10 for overdreven beskrivelse av selve jobben og dens arbeidsoppgaver.
+Forklaring kriterium 1: Hvis annonsen beskriver arbeidsoppgavene og krav til kompetanse uten noe utsmykning av språket vil annonsen få score 1.
+Hvis annonsen inneholder overdådig og smigrende språk om hvor bra jobben er uten å vektlegge det å faktisk beskrive stillingen øke denne scoren.
+Maksimal score er 10 Kriterium 2: Gi en score mellom 0 og 10 for overdådig beskrivelse av arbeidsplassen.
+Forklaring Kriterium 2: Hvis annonsen beskriver rett frem hva slags type arbeidsplass og hvilken industri arbeidsplassen faller inn under, gi score 1.
+Dersom annonsen bruker språk som er overdådig og unødvendig for å skape forståelse om arbeidsplassens karakteristikker, øk scoren. Maksimal score er 10
+
+Her er teksten til annonsen:
+
+"10189384;0538-2019-12-4;Tilkallingsvikar som renholder 2020;"
+
+  Org.nr.:# kommune Stillingsident: 19/3911 Presentasjon av stillingen:
+
+  Vi søker etter vikarer på tilkalling til vår renholdstjeneste for 2020. Vikarene må kunne tre inn på kort varsel ved sykdom, permisjoner og ferieavvikling på sommeren.
+
+  Arbeidsoppgaver:
+
+  Moderne renhold i kommunale bygg som skole, barnehage, sykehjem og administrasjonslokaler.
+
+  Ønskede kvalifikasjoner:
+
+  Fagbrev som renholdsoperatør, men relevant erfaring kan kompensere for utdanningskravet
+  Erfaring fra renholdsarbeid
+  Nøyaktig og effektiv
+  Serviceinnstilt og fleksibel med hensyn til arbeidstid, -sted og -mengde.
+  Positiv, selvstendig og gode samarbeidsevner
+  Gode norskkunnskaper
+  Søkere må ha førerkort klasse B og kunne disponere egen bil.
+
+  For stillingen gjelder:
+
+  Vitnemål og attester skal ikke oversendes, men medbringes ved evt. intervju
+  Tilsettingsvilkår i henhold til gjeldende lover, reglement og tariffavtaler
+  Søknad sendes:
+
+Vi ønsker at du benytter elektronisk søknad på vår hjemmeside: www.nordre-land.kommune.no/ Link til søknadsskjema: Send søknad For mer informasjon kontakt: , #, Tlf: +47 #, Epost: linda.h.ekrem@nordre-land.kommune.no
+
+Respons ChatGPT 4o
+
+**Analyse av jobbutlysningen i henhold til blomsterspråk**
+
+**Kriterium 1: Overdreven beskrivelse av selve jobben og dens arbeidsoppgaver**
+
+Score: **1/10**
+
+**Forklaring:** Stillingsbeskrivelsen for denne jobben som renholder på tilkalling er rett frem og konkret. Den beskriver arbeidsoppgavene nøyaktig (moderne renhold i kommunale bygg) og spesifiserer ønskede kvalifikasjoner (fagbrev, erfaring, ferdigheter). Språket er nøkternt, og det er ingen forsøk på å fremheve jobben som mer attraktiv eller overdrive betydningen av arbeidsoppgavene. Det er ingen bruk av superlativer eller smigrende språk som «fantastisk mulighet» eller «en stilling for den som elsker en variert hverdag.»
+
+**Kriterium 2: Overdreven beskrivelse av arbeidsplassen**
+
+Score: **1/10**
+
+**Forklaring:** Annonsen gir en nøktern og faktabasert beskrivelse av arbeidsplassen, som er en kommunal renholdstjeneste. Det brukes ingen overflødige superlativer eller overdrivelser om arbeidsmiljøet eller arbeidsplassen som helhet. Den beskriver rett ut at arbeidet vil foregå i kommunale bygg, og nevner spesifikt type bygg (skole, barnehage, sykehjem). Det er ingen forsøk på å fremstille arbeidsplassen som mer spennende, unik, eller eksepsjonell.
+
+**Sammendrag:** Annonsen fremstår som svært nøktern og informativ, uten overdreven eller smigrende bruk av språk for å tiltrekke seg søkere. Den fokuserer på konkrete krav og oppgaver, noe som resulterer i lave scorer for begge kriterier.
+
+Respons ChatGPT o1
+
+**Vurdering av jobbannonsen:**
+
+**Kriterium 1: Overdreven beskrivelse av selve jobben og arbeidsoppgaver**
+
+- **Score:** 1/10
+
+**Forklaring:** Annonsen beskriver arbeidsoppgavene på en klar og direkte måte uten bruk av blomsterspråk eller overdrevne formuleringer. Den gir en nøktern presentasjon av stillingen og de forventede oppgavene.
+
+---
+
+**Kriterium 2: Overdådig beskrivelse av arbeidsplassen**
+
+- **Score:** 1/10
+
+**Forklaring:** Annonsen gir en enkel og rett frem beskrivelse av arbeidsplassen som kommunale bygg som skole, barnehage, sykehjem og administrasjonslokaler. Det er ingen bruk av overdådig eller unødvendig språk for å fremheve arbeidsplassen.
+
+---
+
+**Konklusjon:** Jobbannonsen er saklig og informativ uten bruk av blomsterspråk, og får derfor lav score på begge kriteriene.
