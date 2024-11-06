@@ -24,7 +24,7 @@ SCORINGSKRITERIER:
 3. De 7 mest superlative ordene (I svaret skriv alltid på formated: Kriterium 3: ord1, ord2, ord3, ord4, ord5, ord6, ord7)
 
 SVARFORMAT:
-1. Kort analyse (maks 200 ord)
+1. Kort analyse (maks 50 ord)
 2. Kriterium 1: Score X/10
 3. Kriterium 2: Score X/10
 4. Kriterium 3: ord1, ord2, ord3, ord4, ord5, ord6, ord7
@@ -43,7 +43,7 @@ def query_openai(prompt):
                 {"role": "user", "content": prompt}
             ],
             max_tokens=500,
-            temperature=0.7
+            temperature=0.3
         )
         return response.choices[0].message.content
     except Exception as e:
