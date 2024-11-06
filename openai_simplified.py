@@ -1,3 +1,4 @@
+pip install openai
 from openai import OpenAI
 import csv
 import time
